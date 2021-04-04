@@ -27,7 +27,6 @@ export const Countdown = ({
     if (millis === 0) {
       onEnd();
     }
-    console.log(millis);
     onProgress(millis / minToMillis(minutes));
   }, [millis]);
 
